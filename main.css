@@ -10,7 +10,7 @@
 body {
   background-color: #fff;
   padding:20px;
-  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 18px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
@@ -61,7 +61,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:700px;
+  width:800px;
   margin:0 auto;
 }
 
@@ -106,12 +106,20 @@ th {
   color:#444;
 }
 
+.quotation_mark {
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    line-height: 16px;
+    margin: 5px;
+}
+
 img {
   max-width:100%;
 }
 
 header {
-  width:300px;
+  width:350px;
   float:left;
   -webkit-font-smoothing:subpixel-antialiased;
 }
@@ -123,7 +131,7 @@ header ul {
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:300px;
+  width:350px;
 }
 
 header li {
@@ -176,7 +184,7 @@ header ul a strong {
 }
 
 section {
-  width:300px;
+  width:350px;
   float:right;
   padding-bottom:50px;
 }
@@ -200,7 +208,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 700px) {
 
   div.wrapper {
     width:auto;
