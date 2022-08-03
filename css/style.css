@@ -194,7 +194,7 @@ p {
     transition: all .3s ease;
 }
 #topbar .social ul li:hover a {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     color: #fff;
 }
 #topbar .social ul li a i {
@@ -275,11 +275,11 @@ header .mainmenu-container ul li a {
 }
 header .mainmenu-container > ul > li.current > a,
 header .mainmenu-container ul li a:hover {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 header .mainmenu-container ul li a:before {
     height: 4px;
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
 }
 header .mainmenu-container ul li.current a:before {
     right: 0;
@@ -297,11 +297,11 @@ header .mainmenu-container ul li.top-icons a i {
 
 }
 header .mainmenu-container ul li.top-icons:hover a i {
-    border-color: #FE5454;
-    color: #FE5454;
+    border-color: rgba(227, 148, 63, 1.0);
+    color: rgba(227, 148, 63, 1.0);
 }
 header .search-box {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     padding: 10px 0;
     display: none;
 }
@@ -341,7 +341,7 @@ header .cart-box .icon {
     font-size: 18px;
 }
 header .cart-box span {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     font-weight: bold;
     font-family: 'Open Sans';
 }
@@ -378,7 +378,7 @@ header.header-fixed .logo {
     width: 240px;
     visibility: hidden;
     opacity: 0;
-    border-top: 2px solid #FE5454;
+    border-top: 2px solid rgba(227, 148, 63, 1.0);
     -webkit-box-shadow: 0px 5px 5px 1px rgba(0,0,0,.2);
     box-shadow: 0px 1px 5px 1px rgba(0,0,0,.2);
     filter: alpha(opacity=0);
@@ -420,13 +420,13 @@ header nav.mainmenu-container ul > li > ul > li > a:after {
     transition: all .3s ease;
 }
 header nav.mainmenu-container ul > li > ul > li > a:hover:after {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 header nav.mainmenu-container ul > li > ul > li:last-child > a {
     border: none;
 }
 header nav.mainmenu-container ul > li > ul > li > a:hover {
-    color: #FE5454;  
+    color: rgba(227, 148, 63, 1.0);  
 }
 .mainmenu-container ul > li.dropdown:after {
     font-family: 'FontAwesome';
@@ -434,7 +434,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     position: absolute;
     bottom: 20px;
     display: block;
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     line-height: 20px;
     font-size: 16px;
     text-align: center;
@@ -520,7 +520,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     cursor: pointer;
 }
 .mainmenu-container ul > li > ul > li.dropdown:hover:after {
-    color: #fe5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 /**
 * Banner Styles.
@@ -543,7 +543,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     text-transform: uppercase;
 }
 .banner .banner-txt h1 span {
-    color: #fe5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 .banner .banner-txt h1:after {
     content: ' ';
@@ -571,7 +571,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     border-color: transparent;
 }
 .banner .banner-txt button:before {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
 }
 .banner .banner-form {
     background: #fff;
@@ -643,7 +643,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     color: #fff;
 }
 .banner .banner-form .tab-content p button {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     color: #fff;
     border: none;
     outline: none;
@@ -676,7 +676,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     line-height: 50px;
     color: #fff;
     font-weight: 900;
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     text-transform: uppercase;
     padding: 0 15px;
 }
@@ -706,7 +706,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
 **/
 
 #promotional-text {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     color: #fff;
 }
 #promotional-text p {
@@ -777,7 +777,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 #who-we-are .large-box .hvr-bounce-to-left:before {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
 }
 #who-we-are .single-box .img-holder {
     position: relative;
@@ -793,7 +793,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     position: absolute;
     bottom: 100%;
     left: 0;
-    background: rgba(254, 84, 84, .75);
+    background: rgba(227, 148, 63, .75);
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
@@ -930,7 +930,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     color: #999999;
 }
 .service-tab-content ul li .fa {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     margin-right: 10px;
     font-size: 16px;
 }
@@ -1006,7 +1006,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     left: 0;
     padding: 10px;
     cursor: pointer;
-    background: rgba(254, 84, 84, .85);
+    background: rgba(227, 148, 63, .85);
     opacity: 0;
     filter: alpha(opacity=0);
     -webkit-transition: all .3s ease;
@@ -1072,7 +1072,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     border-color: transparent;
 }
 #our-projects a.view-all:before {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
 }
 /**
 * Our Specialist Styles.
@@ -1096,7 +1096,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
 }
 #our-specialist .single-member .info {
     width: 100%;
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     text-align: center;
     padding: 15px 0;
     position: absolute;
@@ -1199,7 +1199,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     width: 61%;
     padding-top: 20px;
     padding-right: 25px;
-    border-top: 2px solid #FE5454;
+    border-top: 2px solid rgba(227, 148, 63, 1.0);
     padding-left: 20px;
 }
 #testimonials .single-testimonial .content p {
@@ -1210,7 +1210,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     margin-bottom: 0;
 }
 #testimonials .single-testimonial:before {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
 }
 #testimonials .single-testimonial .content .fa {
     font-size: 19px;
@@ -1288,7 +1288,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     display: inline-block;
 }
 #emergency p.phone-contact a:before {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
 }
 /**
 * Blog Styles.
@@ -1323,7 +1323,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     font-weight: bold;
     font-size: 24px;
     line-height: 26px;
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     text-transform: uppercase;
     text-align: center;
     margin: 0;
@@ -1442,7 +1442,7 @@ footer {
     background-size: cover;
 }
 footer .container {
-    border-top: 4px solid #FE5454;
+    border-top: 4px solid rgba(227, 148, 63, 1.0);
 }
 footer .container .col-lg-12 .request-for-qoute-wrap {
     text-align: center;
@@ -1452,8 +1452,8 @@ footer .container .col-lg-12 a.request-for-qoute {
     line-height: 45px;
     color: #fff;
     font-weight: 900;
-    background: #FE5454;
-    border: 1px solid #FE5454;
+    background: rgba(227, 148, 63, 1.0);
+    border: 1px solid rgba(227, 148, 63, 1.0);
     text-transform: uppercase;
     display: inline-block;
     margin: auto;
@@ -1463,7 +1463,7 @@ footer .container .col-lg-12 a.request-for-qoute {
 }
 footer .container .col-lg-12 a.request-for-qoute:hover,
 footer .container .col-lg-12 a.request-for-qoute:focus {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 footer .container .col-lg-12 a.request-for-qoute:before {
     background: #fff;
@@ -1491,7 +1491,7 @@ footer .footer-menu ul li a {
     transition: all .3s ease;
 }
 footer .footer-menu ul li a:hover {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 footer .widget h3 {
     font-size: 16px;
@@ -1526,7 +1526,7 @@ footer .widget .social li a {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     text-align: center;
     line-height: 40px;
     color: #224755;
@@ -1537,7 +1537,7 @@ footer .widget .social li a {
     transition: all .3s ease;
 }
 footer .widget .social li:hover a {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -1563,7 +1563,7 @@ footer .widget .popular-post li a h5 {
     transition: all .3s ease;
 }
 footer .widget .popular-post li a:hover h5 {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 footer .widget .popular-post li p {
     color: #445058;
@@ -1669,7 +1669,7 @@ footer .footer-menu .footer-nav-toggler {
     color: #999999;
 }
 #our-mission ul li .fa {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     margin-right: 10px;
     font-size: 16px;
 }
@@ -1781,7 +1781,7 @@ footer .footer-menu .footer-nav-toggler {
     font-weight: 500;
 }
 #service-content .col-lg-8 button {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     border: none;
     outline: none;
     color: #fff;
@@ -1881,7 +1881,7 @@ footer .footer-menu .footer-nav-toggler {
     text-align: center;
 }
 #why-choose-us .col-lg-3 .img-wrap {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     display: inline-block;
     padding: 20px;
     -webkit-transform: rotate(45deg);
@@ -1965,7 +1965,7 @@ footer .footer-menu .footer-nav-toggler {
 }
 #blog-post article .img-holder:before {
     content: '';
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     bottom: -100%;
     position: absolute;
     left: 0%;
@@ -1976,7 +1976,7 @@ footer .footer-menu .footer-nav-toggler {
 }
 #blog-post article .img-holder:after {
     content: '';
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     top:-100%;
     position: absolute;
     right: 0%;
@@ -1991,10 +1991,10 @@ footer .footer-menu .footer-nav-toggler {
 }
 #blog-post article .post-date {
     text-align: center;
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     font-size: 22px;
     line-height: 20px;
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     font-weight: bold;
     width: 70px;
     height: 70px;
@@ -2045,7 +2045,7 @@ footer .footer-menu .footer-nav-toggler {
     text-transform: uppercase;
     font-size: 13px;
     line-height: 39px;
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     padding: 0 0px;
     display: inline-block;
 }
@@ -2124,7 +2124,7 @@ footer .footer-menu .footer-nav-toggler {
     margin-right: 10px;
 }
 #blog-post .sidebar-widget .category-list li:hover a {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 #blog-post .sidebar-widget .popular-post li {
     margin-bottom: 30px;
@@ -2178,8 +2178,8 @@ footer .footer-menu .footer-nav-toggler {
 }
 #blog-post .sidebar-widget .tag-cloud a:hover {
     color: #fff;
-    background: #FE5454;
-    border: 1px solid #FE5454;
+    background: rgba(227, 148, 63, 1.0);
+    border: 1px solid rgba(227, 148, 63, 1.0);
 }
 
 .post-pagination ul {
@@ -2248,7 +2248,7 @@ footer .footer-menu .footer-nav-toggler {
     padding-top: 15px;
 }
 #contact-content .contact-form button {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     color: #fff;
     border: none;
     outline: none;
@@ -2374,7 +2374,7 @@ footer .footer-menu .footer-nav-toggler {
     font-weight: bold;
     line-height: 35px;
     text-transform: uppercase;
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     height: 35px;
     color: #fff;
     border: none;
@@ -2385,7 +2385,7 @@ footer .footer-menu .footer-nav-toggler {
 }
 #pricing-content .price-table-wrap .price-table button:hover,
 #pricing-content .price-table-wrap .price-table button:active {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 #pricing-content .price-table-wrap .price-table button:before {
     background: #42B8E9;
@@ -2481,7 +2481,7 @@ footer .footer-menu .footer-nav-toggler {
     transition: all .3s ease;
 }
 #project-version-one .single-project-item .img-wrap .content-wrap:before {
-    background: rgba(254, 84, 84, .85);
+    background: rgba(227, 148, 63, .85);
 }
 #project-version-one .single-project-item:hover .img-wrap .content-wrap {
     opacity: 1;
@@ -2600,7 +2600,7 @@ footer .footer-menu .footer-nav-toggler {
     left: 0;
     padding: 10px;
     cursor: pointer;
-    background: rgba(254, 84, 84, .85);
+    background: rgba(227, 148, 63, .85);
     opacity: 0;
     filter: alpha(opacity=0);
     -webkit-transition: all .3s ease;
@@ -2673,7 +2673,7 @@ footer .footer-menu .footer-nav-toggler {
     margin-right: 7px;
 }
 #blog-post.single-post article ul.highlight li {
-    color: #fe5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 #blog-post article .expert_quote_area .col-lg-12 .expert_quote {
     background: #f5f4f4 none repeat scroll 0 0;
@@ -2684,7 +2684,7 @@ footer .footer-menu .footer-nav-toggler {
     position: relative;
 }
 #blog-post article .expert_quote_area .col-lg-12 .expert_quote:before {
-    background-color: #fe5454;
+    background-color: rgba(227, 148, 63, 1.0);
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
     content: "";
@@ -2711,7 +2711,7 @@ footer .footer-menu .footer-nav-toggler {
     top: 30px;
 }
 #blog-post article .expert_quote_area .col-lg-12 .expert_quote span {
-    color: #fe5454;
+    color: rgba(227, 148, 63, 1.0);
     float: right;
     font-size: 14px;
     font-style: italic;
@@ -2863,8 +2863,8 @@ footer .footer-menu .footer-nav-toggler {
     width: 100%;
 }
 #blog-post article .comment-box .comment-box-field .comment-box-submit input[type=submit] {
-    background: #fe5454 none repeat scroll 0 0;
-    border: 1px solid #fe5454;
+    background: rgba(227, 148, 63, 1.0) none repeat scroll 0 0;
+    border: 1px solid rgba(227, 148, 63, 1.0);
     color: #fff;
     font-size: 14px;
     font-weight: 700;
@@ -2932,7 +2932,7 @@ footer .footer-menu .footer-nav-toggler {
     width: 75%;
 }
 #blog-post .no-search-content .suggesion-input input[type=button] {
-    background: #fe5454 none repeat scroll 0 0;
+    background: rgba(227, 148, 63, 1.0) none repeat scroll 0 0;
     border: medium none;
     color: #fff;
     font-size: 16px;
@@ -2961,8 +2961,8 @@ button.mainmenu-toggler {
     transition: all 0.3s ease 0s;
 }
 button.mainmenu-toggler:hover {
-    border-color: #FE5454;
-    color: #FE5454;
+    border-color: rgba(227, 148, 63, 1.0);
+    color: rgba(227, 148, 63, 1.0);
 }
 .mainmenu-container ul li.dropdown .fa {
     display: none;
@@ -3026,7 +3026,7 @@ button.mainmenu-toggler:hover {
 **/
 
 #blog-post .sidebar-widget .category-list li a.active {
-    color: #fe5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 
 /**
@@ -3107,7 +3107,7 @@ button.mainmenu-toggler:hover {
     width: 79%;
 }
 .faq .faq-content .faq-search input[type=button] {
-    background: #fe5454 none repeat scroll 0 0;
+    background: rgba(227, 148, 63, 1.0) none repeat scroll 0 0;
     border: medium none;
     color: #fff;
     font-size: 16px;
@@ -3165,7 +3165,7 @@ button.mainmenu-toggler:hover {
     padding: 25px 15px 30px;
 }
 #blog-post article .general-question .panel-body .panel_body_up h2 {
-    color: #fe5454;
+    color: rgba(227, 148, 63, 1.0);
     font-size: 24px;
     font-weight: 300;
     padding: 10px 0;
@@ -3275,7 +3275,7 @@ button.mainmenu-toggler:hover {
     visibility: visible;
 }
 #project-version-one .two-col-gallery .single-project-item .content:before {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
 }
 #project-version-one .two-col-gallery .single-project-item:hover .content:before {
     -webkit-transform: scaleY(1);
@@ -3496,7 +3496,7 @@ header.home-v2 ul.mainmenu > li.current > a {
     border-color: transparent;
 }
 .home-v2#project-version-two a.view-all:before {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
 }
 
 
@@ -3613,8 +3613,8 @@ header.home-v2 ul.mainmenu > li.current > a {
     line-height: 45px;
     color: #fff;
     font-weight: 900;
-    background: #FE5454;
-    border: 1px solid #FE5454;
+    background: rgba(227, 148, 63, 1.0);
+    border: 1px solid rgba(227, 148, 63, 1.0);
     text-transform: uppercase;
     display: inline-block;
     margin: auto;
@@ -3627,7 +3627,7 @@ header.home-v2 ul.mainmenu > li.current > a {
 }
 #subscribe-section .subscribe-form-wrap button:hover, 
 #subscribe-section .subscribe-form-wrap button:focus {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 
 /**
@@ -3667,7 +3667,7 @@ header.home-v2 ul.mainmenu > li.current > a {
 }
 #our-achivement .achivement:hover ul li span i,
 #our-achivement .achivement:hover ul li span b {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 #our-achivement .achivement:hover ul li span {
     color: #012C3C;
@@ -3737,7 +3737,7 @@ header.home-v2 ul.mainmenu > li.current > a {
     display: none !important;
 }
 #request-a-qoute-container .tab-content form ul li:hover label {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 #request-a-qoute-container .tab-content form ul li:focus label {
     color: #42B8E9;
@@ -3802,7 +3802,7 @@ header.home-v2 ul.mainmenu > li.current > a {
    color: #fff;  
 }
 #request-a-qoute-container .tab-content form ul li button {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     color: #fff;
     border: none;
     outline: none;
@@ -3815,7 +3815,7 @@ header.home-v2 ul.mainmenu > li.current > a {
 }
 #request-a-qoute-container .tab-content form ul li button:hover,
 #request-a-qoute-container .tab-content form ul li button:focus {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 #request-a-qoute-container .tab-content form ul li button:before {
     background: #fff;
@@ -3946,7 +3946,7 @@ header.header-v1.header-fixed .top-info {
     color: #002431;
 }
 #header-v1-banner h1.red {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     color: #fff;
 }
 #header-v1-banner p {
@@ -4033,7 +4033,7 @@ header.header-v3 .col-lg-9 ul li span .icon {
 }
 header.header-v3 .mainmenu-container {
     background: #10BEDE;
-    border-bottom: 3px solid  #FE5454;
+    border-bottom: 3px solid  rgba(227, 148, 63, 1.0);
     padding: 0;
 }
 header.header-v3 .mainmenu-container ul {
@@ -4061,7 +4061,7 @@ header.header-v3 .mainmenu-container > ul > li > a:before {
 }
 header.header-v3 .mainmenu-container > ul > li:hover > a,
 header.header-v3 .mainmenu-container > ul > li.current > a {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
 }
 header.header-v3 .mainmenu-container > ul > li.current > a:before,
 header.header-v3 .mainmenu-container > ul > li:hover > a:before,
@@ -4122,7 +4122,7 @@ h1.banner-header-v3-heading.blue {
     color: #0EC3FF;
 }
 h1.banner-header-v3-heading.red {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     color: #fff;
 }
 .banner-header-v3-txt {
@@ -4160,7 +4160,7 @@ h1.banner-header-v3-heading.red {
     transition: all .3s ease;
 }
 .banner-header-v3-button:hover {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     color: #fff;
 }
 .banner-header-v3-button:active {
@@ -4257,7 +4257,7 @@ header.header-v4 .mainmenu-container > ul > li:first-child > a:before {
 }
 header.header-v4 .mainmenu-container > ul > li:hover > a,
 header.header-v4 .mainmenu-container > ul > li.current > a {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 header.header-v4 .mainmenu-container ul > li.dropdown:after {
     bottom: 0;
@@ -4312,7 +4312,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
 #banner.header-v2 h1 {
     font-size: 75px;
     line-height: 75px;
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     text-transform: uppercase;
     font-weight: 800;
 }
@@ -4353,7 +4353,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     background: #FFCA1C;
 }
 #banner.header-v2 .header-v2-caption li .icon-holder.heating {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
 }
 #banner.header-v2 .header-v2-caption li .icon-holder.handyman {
     background: #53E6B0;
@@ -4383,7 +4383,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     text-transform: uppercase;
 }
 .header-v4 .bold-pxslider-caption-header-v4.red h1 {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 
 
@@ -4496,13 +4496,13 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     line-height: 30px;
     display: inline-block;
     padding: 0 25px;
 }
 #project-version-one .normal-gallery.gallery-v5 .single-project-item a.read-more:hover {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 #project-version-one .normal-gallery.gallery-v5 .single-project-item a.read-more:before {
     background: #fff;
@@ -4584,7 +4584,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     margin-bottom: 20px;
 }
 #page-404-content .container a.button-404 {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     color: #fff;
     text-transform: uppercase;
     line-height: 38px;
@@ -4595,8 +4595,8 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     border: 1px solid transparent;
 }
 #page-404-content .container a.button-404:hover {
-    color: #FE5454;
-    border-color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
+    border-color: rgba(227, 148, 63, 1.0);
 }
 #page-404-content .container a.button-404:before {
     background: #fff;
@@ -4650,7 +4650,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     margin-bottom: 5px;
 }
 #blog-post .search-content .single-search-content .content a {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     font-size: 14px;
     font-weight: 600;
 }
@@ -4726,7 +4726,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     outline: none;
 }
 .cart-page .table > tbody > tr > td.del-item {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
     font-size: 18px;
     font-weight: normal;
 }
@@ -4759,7 +4759,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     text-align: right;
 }
 .cart-page .add-to-cart-wrap a {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     text-transform: uppercase;
     display: inline-block;
     line-height: 36px;
@@ -4794,7 +4794,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     text-align: right;
 }
 .cart-page .cart-total-box .proceed-to-checkout a {
-        background: #FE5454;
+        background: rgba(227, 148, 63, 1.0);
     text-transform: uppercase;
     display: inline-block;
     line-height: 36px;
@@ -4826,7 +4826,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     line-height: 26px;
 }
 #checkout-content .return-customer a {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 
 #checkout-content label,
@@ -4928,7 +4928,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     font-weight: 700;
 }
 #checkout-content .order-box ul li a span {
-    color: #FE5454;
+    color: rgba(227, 148, 63, 1.0);
 }
 #checkout-content .order-box ul li input[type="radio"] {
     margin-right: 10px;
@@ -4950,7 +4950,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     color: #ECECEC;
 }
 #checkout-content .order-box ul li a.place-order {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     text-transform: uppercase;
     display: inline-block;
     line-height: 36px;
@@ -5006,7 +5006,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     font-weight: 600;
 }
 .shop-page-content .single-shop-item a.add-to-cart {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     text-transform: uppercase;
     display: inline-block;
     line-height: 30px;
@@ -5073,7 +5073,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
     margin-left: 10px;
 }
 .product-details-box a.add-to-cart {
-    background: #FE5454;
+    background: rgba(227, 148, 63, 1.0);
     text-transform: uppercase;
     display: inline-block;
     line-height: 50px;
@@ -5101,7 +5101,7 @@ header.header-v4 .mainmenu-container ul li.top-icons a:before {
 .product-details-tab-title ul li.active span {
     background: #fff;
     border: 1px solid #E6E6E6;
-    border-top: 2px solid #FE5454;
+    border-top: 2px solid rgba(227, 148, 63, 1.0);
     border-bottom: 0;
     position: relative;
     top: 1px;

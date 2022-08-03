@@ -363,7 +363,7 @@
 	header .mainmenu-container ul.mainmenu li a:hover,
 	header .mainmenu-container ul.mainmenu li.current > a {
 		color: #fff;
-		background: #FE5454;
+		background: rgba(227, 148, 63, 1.0);
 		padding: 0 30px;
 	}
 	header .mainmenu-container ul.mainmenu li ul.submenu {
@@ -403,7 +403,7 @@
 		transition: all .3s ease;
 	}
 	.mainmenu-container ul li.dropdown .fa:hover {
-		background: #FE5454;
+		background: rgba(227, 148, 63, 1.0);
 	}
 	header .logo {
 		text-align: center;
@@ -513,7 +513,7 @@
 
 	}
 	header.header-v3 .mainmenu-container ul li.top-icons a i {
-		color: #FE5454;
+		color: rgba(227, 148, 63, 1.0);
 	}
 	header.header-v3 .mainmenu-container ul li.top-icons a:hover i {
 		color: #fff;
@@ -855,7 +855,7 @@
 	header .mainmenu-container ul.mainmenu li a:hover,
 	header .mainmenu-container ul.mainmenu li.current > a {
 		color: #fff;
-		background: #FE5454;
+		background: rgba(227, 148, 63, 1.0);
 		padding: 0 30px;
 	}
 	header .mainmenu-container ul.mainmenu li.current > a {
@@ -894,7 +894,7 @@
 		border-radius: 5px;
 	}
 	.mainmenu-container ul li.dropdown .fa:hover {
-		background: #FE5454;
+		background: rgba(227, 148, 63, 1.0);
 		color: #fff;
 	}
 	header .logo {
@@ -934,15 +934,15 @@
 		display: block;
 	}
 	footer .footer-menu ul li:hover a {
-		background: #FE5454;
+		background: rgba(227, 148, 63, 1.0);
 		color: #fff;
 	}
 	footer .footer-menu .footer-nav-toggler {
 		background: #fff;
 		border: none;
 		outline: none;
-		color: #FE5454;
-		border: 3px solid #FE5454;
+		color: rgba(227, 148, 63, 1.0);
+		border: 3px solid rgba(227, 148, 63, 1.0);
 		height: 40px;
 		line-height: 38px;
 		padding: 3px 7px;
@@ -952,7 +952,7 @@
 		margin-bottom: 15px;
 	}
 	footer .footer-menu .footer-nav-toggler:before {
-		background: #FE5454;
+		background: rgba(227, 148, 63, 1.0);
 	}
 	footer .footer-menu .footer-nav-toggler:hover,
 	footer .footer-menu .footer-nav-toggler:focus,
@@ -1086,7 +1086,7 @@
 
 	}
 	header.header-v3 .mainmenu-container ul li.top-icons a i {
-		color: #FE5454;
+		color: rgba(227, 148, 63, 1.0);
 	}
 	header.header-v3 .mainmenu-container ul li.top-icons a:hover i {
 		color: #fff;
