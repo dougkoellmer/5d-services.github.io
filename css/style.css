@@ -257,7 +257,7 @@ header .mainmenu-container ul {
 }
 header .mainmenu-container ul li {
     display: inline-block;
-    line-height: 105px;
+    line-height: 75px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
