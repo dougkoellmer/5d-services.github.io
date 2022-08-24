@@ -1253,20 +1253,33 @@
 		$("#contact-us-submit-button").on("click", function() {
 			console.log("Made it here");
 
-			// https://formspree.io/f/xvoygrov
+			$form = $("#contact-form-elem");
 
-			message = getFormData($("#contact-form-elem"));
+			$form.validate();
+
+			message = getFormData($form);
 			// console.log(message);
 
-			$.ajax({
-				url: "https://formspree.io/f/xvoygrov", 
-				method: "POST",
-				data: message,
-				dataType: "json",
-				success: function() {
-					alert("Thank you for your message! We will be in contact with you shortly.");
-				}
-			});
+			if ( $form.valid() ) {
+				$.ajax({
+					url: "https://formspree.io/f/xvoygrov", 
+					method: "POST",
+					data: message,
+					dataType: "json",
+					success: function() {
+						var nameElem = document.getElementById("contact-us-name");
+						var emailElem = document.getElementById("contact-us-email");
+						var messageElem = document.getElementById("contact-us-message");
+
+						nameElem.value = "";
+						emailElem.value = "";
+						messageElem.value = "";
+
+						alert("Thank you for your message! We will be in contact with you shortly.");
+					}
+				});
+			}
+			
 			// alert('Thanks for the email, we\'ll be in touch promptly.');
 			return true;
 		});
