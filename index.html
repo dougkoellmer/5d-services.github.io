@@ -1253,10 +1253,6 @@
 		$("#contact-us-submit-button").on("click", function() {
 			console.log("Made it here");
 
-			var nameElem = document.getElementById("contact-us-name");
-			var emailElem = document.getElementById("contact-us-email");
-			var messageElem = document.getElementById("contact-us-message");
-
 			// https://formspree.io/f/xvoygrov
 
 			message = getFormData($("#contact-form-elem"));
@@ -1266,10 +1262,7 @@
 				url: "https://formspree.io/f/xvoygrov", 
 				method: "POST",
 				data: message,
-				dataType: "json",
-				headers: {
-					'Accept': 'application/json'
-				}
+				dataType: "json"
 			});
 			// alert('Thanks for the email, we\'ll be in touch promptly.');
 			return true;
