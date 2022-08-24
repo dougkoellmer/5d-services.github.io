@@ -1262,7 +1262,10 @@
 				url: "https://formspree.io/f/xvoygrov", 
 				method: "POST",
 				data: message,
-				dataType: "json"
+				dataType: "json",
+				success: function() {
+					alert("Thank you for your message! We will be in contact with you shortly.");
+				}
 			});
 			// alert('Thanks for the email, we\'ll be in touch promptly.');
 			return true;
