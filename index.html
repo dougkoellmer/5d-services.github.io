@@ -1004,7 +1004,6 @@
 		</div>
 	</section><!-- /#pricing-faq -->
 
-
 	<!-- #contact-content -->
 	<section id="contact-content" class="home-v2">
 		<div class="container">
@@ -1014,12 +1013,12 @@
 			<p>Please contact us at anytime and we will get back to you within one business day. We look forward to doing business!</p>
 			<div class="row">	
 				<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 ">
-					<form action="https://formspree.io/f/xvoygrov" method="POST" class="contact-form">
-						<p><input type="text" name="name" placeholder="Name"></p>
-						<p><input type="text" name="email" placeholder="Email"></p>
+					<form id="contact-form-elem" class="contact-form">
+						<p><input id="contact-us-name" type="text" name="name" placeholder="Name"></p>
+						<p><input id="contact-us-email" type="text" name="email" placeholder="Email"></p>
 						<!-- <p><input type="text" name="subject" placeholder="Subject"></p> -->
-						<p><textarea name="message" placeholder="Message"></textarea></p>
-						<p><button type="submit">Submit Message</button></p>
+						<p><textarea id="contact-us-message" name="message" placeholder="Message"></textarea></p>
+						<p><button id="contact-us-submit-button">Submit Message</button></p>
 					</form>
 				</div>
 				<div style="margin-left:0px;" class="col-lg-5 col-md-6 col-sm-4 col-xs-12  col-lg-offset-1  col-md-offset-0  col-sm-offset-0  col-xs-offset-0 contact-info">
@@ -1238,6 +1237,28 @@
 	<script src="js/jquery.scrolly.js"></script> <!-- Scrolly JS -->
 	<script src="js/jquery.easing.min.js"></script> <!-- EaseIng JS -->
 	<script src="js/custom.js"></script> <!-- Custom JS -->
+
+	<script>
+		$("#contact-us-submit-button").on("click", function() {
+			console.log("Made it here");
+
+			var nameElem = document.getElementById("contact-us-name");
+			var emailElem = document.getElementById("contact-us-email");
+			var messageElem = document.getElementById("contact-us-message");
+
+			// https://formspree.io/f/xvoygrov
+
+			message = $("#contact-form-elem").serialize();
+			$.ajax({
+				url: "//formspree.io/xvoygrov", 
+				method: "POST",
+				data: {message: message},
+				dataType: "json"
+			});
+			// alert('Thanks for the email, we\'ll be in touch promptly.');
+			return true;
+		});
+	</script>
 
 </body>
 </html>
