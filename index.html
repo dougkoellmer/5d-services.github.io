@@ -1239,6 +1239,17 @@
 	<script src="js/custom.js"></script> <!-- Custom JS -->
 
 	<script>
+		function getFormData($form){
+			var unindexed_array = $form.serializeArray();
+			var indexed_array = {};
+
+			$.map(unindexed_array, function(n, i){
+				indexed_array[n['name']] = n['value'];
+			});
+
+			return indexed_array;
+		}
+
 		$("#contact-us-submit-button").on("click", function() {
 			console.log("Made it here");
 
@@ -1248,12 +1259,17 @@
 
 			// https://formspree.io/f/xvoygrov
 
-			message = $("#contact-form-elem").serialize();
+			message = getFormData($("#contact-form-elem"));
+			// console.log(message);
+
 			$.ajax({
 				url: "//formspree.io/xvoygrov", 
 				method: "POST",
-				data: {message: message},
-				dataType: "json"
+				data: message,
+				dataType: "json",
+				headers: {
+					'Accept': 'application/json'
+				}
 			});
 			// alert('Thanks for the email, we\'ll be in touch promptly.');
 			return true;
