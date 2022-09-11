@@ -87,7 +87,7 @@
 						<li class="top-icons search"><a href="#"><i class="icon icon-Search"></i></a></li>
 						<li class="top-icons cart"><a href="#"><i class="icon icon-ShoppingCart"></i></a></li>
 					</ul>
-					<button class="mainmenu-toggler">
+					<button style="display:none;" class="mainmenu-toggler">
 						<i class="fa fa-bars"></i>
 					</button>
 					<ul class="mainmenu one-page-scroll-menu pull-right">
@@ -100,19 +100,22 @@
 						<li class="scrollToLink">
 							<a href="#service-we-provide" class="hvr-overline-from-left">Services</a>
 						</li>
+						<li class="scrollToLink">
+							<a href="#why-choose-us" class="hvr-overline-from-left">Why Us?</a>
+						</li>
 						<!-- <li class="scrollToLink">
 							<a href="#our-projects" class="hvr-overline-from-left">Projects</a>
 						</li> -->
-						<li class="scrollToLink">
+						<!-- <li class="scrollToLink">
 							<a href="#our-specialist" class="hvr-overline-from-left">Team</a>
-						</li>
+						</li> -->
 						<li class="scrollToLink">
 							<a href="#pricing-faq" class="hvr-overline-from-left">FAQ</a>
 						</li>
 						<!-- <li class="scrollToLink">
 							<a href="#blog" class="hvr-overline-from-left">Blog</a>
 						</li> -->
-						<li class="scrollToLink"><a href="#contact-content" class="hvr-overline-from-left">Contact Us</a></li>
+						<li class="scrollToLink"><a href="#contact-content" class="hvr-overline-from-left">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -191,14 +194,15 @@
 
 					</li> -->
 					<li 
+						style="border-bottom: 1px solid black;"
 						class="slider-3" 
 						data-transition="fade" 
 						data-slotamount="7" 
-						data-thumb="img/stock_photo.jpg"
+						data-thumb="img/handyman_banner.jpeg"
 						data-title="Fast response time">
 
 						<img 
-							src="img/stock_photo.jpeg" 
+							src="img/handyman_banner.jpeg" 
 							data-bgrepeat="no-repeat" 
 							data-bgfit="cover" 
 							data-bgposition="center center"
@@ -340,30 +344,38 @@
 		</div>
 	</section><!-- /#request-a-qoute-container -->
 
+	<style>
+		.img-border {
+			border: 1px solid black;
+		}
+	</style>
+
 	
 	<!-- #who-we-are -->
 	<section id="who-we-are">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-12 large-box col-sm-12 col-xs-12 wow zoomIn hvr-float-shadow" data-wow-duration=".5s">
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 img-holder">
-						<img src="img/who-we-are/1.jpg" alt="">
+					<div style="height:100%;" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<img style="height:100%; object-fit: cover" src="paul_profile_main.jpg" alt="">
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hvr-bounce-to-left">
-						<h2 style="font-size:20px;">Handyman Services</h2>
-						<p>We are the one-stop-shop for all your home and computer repair needs.</p>
+					<div style="height:100%; background: rgba(227, 148, 63, 1.0);" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<h2 style="text-transform: none; font-size:20px;">Hi, I'm Paul!</h2>
+						<p style="font-size:120%;">I'm the owner of 5D-Services, the one stop shop for all your home and computer repair needs. We are based in Sarasota and Manatee Counties and look forward to helping out.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 single-box wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
-					<div class="img-holder">
-						<img src="img/who-we-are/2.jpg" alt="">
+					<!-- <div class="img-holder"> -->
+					<div class="">
+						<img class="img-border" src="img/todo_list.jpeg" alt="">
 					</div>
 					<h2>The Honey-Do list, Done</h2>
 					<p>Why leave that list hanging on your fridge for weeks? Take care of it now with one quick phone call!</p>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 single-box wow zoomIn" data-wow-duration=".5s" data-wow-delay="1s">
-					<div class="img-holder">
-						<img src="img/who-we-are/3.jpg" alt="">
+					<!-- <div class="img-holder"> -->
+					<div class="">
+						<img class="img-border" src="img/stress_free_home.jpeg" alt="">
 					</div>
 					<h2>A Stress-Free Home</h2>
 					<p>Owning a home is stressful enough. Things are always breaking and leaking and making strange noises. Let us help you carry the load.</p>
@@ -380,7 +392,7 @@
 	</style>
 
 	<!-- #service-we-provide -->
-	<section id="service-we-provide">
+	<section style="padding-bottom:0px;" id="service-we-provide">
 		<div class="container">
 			<div class="section-title">
 				<h1>Services that we offer</h1>
@@ -407,7 +419,7 @@
 									<p>There are many small repair jobs that don't require an expensive call to your plumber.</p>
 									<div class="row">
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<img src="img/service-we-provide/1.jpg" alt="">
+											<img class="img-border" src="img/plumbing_leak.jpeg" alt="">
 										</div>
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<ul>
@@ -420,16 +432,16 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
+								<!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
 									<img src="img/service-we-provide/2.png" alt="">
-								</div>
+								</div> -->
 							</div>
 							<div id="bath">
 								<div style="width:100%;" class="col-lg-8 col-md-8 col-sm-8">
 									<p>Yes we can even repair that broken computer or bring a slow, old dinosaur back to life! We specialize in Windows computers.</p>
 									<div class="row">
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<img src="img/service-we-provide/1.jpg" alt="">
+											<img class="img-border" src="img/computer_repair.jpeg" alt="">
 										</div>
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<ul>
@@ -442,16 +454,16 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
+								<!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
 									<img src="img/service-we-provide/2.png" alt="">
-								</div>
+								</div> -->
 							</div>
 							<div id="kitchen">
 								<div style="width:100%;" class="col-lg-8 col-md-8 col-sm-8">
 									<p>Whether you're looking to sell or just want a fresh look, with the guidance of a professional Real Estate Agent, we will make you feel like you've moved into an entirely new house!</p>
 									<div class="row">
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<img src="img/service-we-provide/1.jpg" alt="">
+											<img class="img-border" src="img/furniture_staging.jpeg" alt="">
 										</div>
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<ul>
@@ -464,31 +476,30 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
-									<img src="img/service-we-provide/2.png" alt="">
-								</div>
+								<!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
+									<img class="img-border" src="img/service-we-provide/2.png" alt="">
+								</div> -->
 							</div>
 							<div id="drain">
 								<div style="width:100%;" class="col-lg-8 col-md-8 col-sm-8">
 									<p>We are licensed in the State Of Florida to handle any and all issues with your Heating and Cooling systems.</p>
 									<div class="row">
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<img src="img/service-we-provide/1.jpg" alt="">
+											<img class="img-border" src="img/air_conditioning.jpeg" alt="">
 										</div>
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<ul>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Natus erroroluptatem</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Accusantium doloremue</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde </li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Natus error sit volupta</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>										
+												<li><i class="fa fa-arrow-circle-o-right"></i>Replacing Filters</li>
+												<li><i class="fa fa-arrow-circle-o-right"></i>Adjusting Vents</li>
+												<li><i class="fa fa-arrow-circle-o-right"></i>Preventative Maintanence</li>
+												<li><i class="fa fa-arrow-circle-o-right"></i>Unit Replacements</li>						
 											</ul>
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
-									<img src="img/service-we-provide/2.png" alt="">
-								</div>
+								<!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
+									<img class="img-border" src="img/service-we-provide/2.png" alt="">
+								</div> -->
 							</div>
 							<!-- <div style="width:100%;" id="toilet">
 								<div class="col-lg-8 col-md-8 col-sm-8">
@@ -517,7 +528,7 @@
 									<p>Contact us for any kind of annoying issues with your doors and windows, or if you are simply looking for a fresh look.</p>
 									<div class="row">
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<img src="img/service-we-provide/1.jpg" alt="">
+											<img class="img-border" src="img/window_repair.jpeg" alt="">
 										</div>
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<ul>
@@ -530,16 +541,16 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
+								<!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
 									<img src="img/service-we-provide/2.png" alt="">
-								</div>
+								</div> -->
 							</div>
 							<div id="outside">
 								<div style="width:100%;" class="col-lg-8 col-md-8 col-sm-8">
 									<p>We truly strive to be a one-stop-shop, do-it-all service for our clients. If it's on a Honey-Do list, why not call us instead?</p>
 									<div class="row">
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<img src="img/service-we-provide/1.jpg" alt="">
+											<img class="img-border" src="img/misc_repair.jpeg" alt="">
 										</div>
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<ul>
@@ -553,9 +564,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
+								<!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
 									<img src="img/service-we-provide/2.png" alt="">
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -688,15 +699,14 @@
 		</div>
 	</section><!-- /#our-projects.with-filter -->
 
-	<!-- #our-specialist -->
-	<section id="our-specialist">
+	<!-- <section id="our-specialist">
 		<div style="margin-left:auto; margin-right:auto;" class="container">
 			<div class="section-title">
 				<h1>Meet The Team</h1>
 			</div>
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-6 wow zoomIn hvr-float-shadow" data-wow-duration=".5s" data-wow-delay="0">
-					<!-- .single-member -->
+
 					<div class="single-member hvr-bounce-to-bottom">
 						<img src="paul_profile_main.jpg" alt="">
 						<div class="info hvr-bounce-to-top">
@@ -709,10 +719,9 @@
 							<h2>Paul Kolakowski</h2>
 							<p class="position">Owner</p>
 						</div>
-					</div> <!-- /.single-member -->
+					</div>
 				</div>
 				<div class="col-lg-3 col-md-3  col-sm-6 wow zoomIn hvr-float-shadow" data-wow-duration=".5s" data-wow-delay=".5s">
-					<!-- .single-member -->
 					<div class="single-member hvr-bounce-to-bottom">
 						<img src="eva_profile.jpeg" alt="">
 						<div class="info hvr-bounce-to-top">
@@ -725,11 +734,11 @@
 							<h2>Eva Kay</h2>
 							<p class="position">Real Estate Specialist</p>
 						</div>
-					</div> <!-- /.single-member -->
+					</div>
 				</div>
 			</div>
 		</div>
-	</section> <!-- /#our-specialist -->
+	</section> -->
 
 	<!-- #our-achivement -->
 <!-- 	<section id="our-achivement">
@@ -784,28 +793,28 @@
 					<div class="img-wrap wow fadeInDown">
 						<img src="img/why-choose-us/icon/1.png" alt="">
 					</div>
-					<h4>Fast response time</h4>
+					<h4>Fast Response Time</h4>
 					<p>Emergencies happen. We guarantee we will get back to you within one-business, especially if it's urgent. We treat your home like our home.</p>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="img-wrap wow fadeInDown" data-wow-delay=".3s">
 						<img src="img/why-choose-us/icon/2.png" alt="">
 					</div>
-					<h4>Dedicated team</h4>
+					<h4>Dedicated Team</h4>
 					<p>We know the stress involved when unexpected issues arise with your home, or that honey-do list starts looking more like a book. We also know how to do all that work for you!</p>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="img-wrap wow fadeInDown" data-wow-delay=".6s">
 						<img src="img/why-choose-us/icon/3.png" alt="">
 					</div>
-					<h4>Guranteed satisfaction</h4>
+					<h4>Guaranteed Satisfaction</h4>
 					<p>If you're not completely satisfied with our work, we will return and address the problem for free or your money back. We offer a 6-month warranty on labor, and one year warranty on materials.</p>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="img-wrap wow fadeInDown" data-wow-delay=".9s">
 						<img src="img/why-choose-us/icon/4.png" alt="">
 					</div>
-					<h4>Free Estimate</h4>
+					<h4>Free Estimates</h4>
 					<p>For any project large or small, we can arrange either a video chat or in-person visit to discuss the scope of work involved.</p>
 				</div>
 			</div>
@@ -968,9 +977,9 @@
 
 	<!-- #pricing-faq -->
 	<section id="pricing-faq" class="home-v2">
-		<div class="parallax-container">
-			<div class="parallax bg-img-sharp-effect" data-velocity="-.5"  style="background-image: url(img/resources/pricing-faq-bg.jpg);"></div>
-		</div>
+		<!-- <div class="parallax-container">
+			<div class="parallax bg-img-sharp-effect" data-velocity="-.5"  style="background-image: url(img/tools_orig.jpeg);"></div>
+		</div> -->
 		<div class="container">
 			<div class="section-title">
 				<h1>Frequently Asked Questions</h1>
@@ -978,23 +987,23 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<ul>
-						<li class="wow fadeIn" data-wow-duration=".5s" data-wow-delay="0s">
+						<li class="wow fadeIn" data-wow-duration=".25s" data-wow-delay="0s">
 							<h2>What areas do you serve?</h2>
 							<p>We focus on Manatee and Sarasota counties but are willing to travel a bit outside these areas as well.</p>
 						</li>
-						<li class="wow fadeIn" data-wow-duration=".5s" data-wow-delay=".25s">
+						<li class="wow fadeIn" data-wow-duration=".25s" data-wow-delay=".2s">
 							<h2>How does pricing work?</h2>
 							<p>We offer free estimates for any job, and can give rough estimates over the phone for straightforward tasks. We bill hourly in addition to materials required.</p>
 						</li>
-						<li class="wow fadeIn" data-wow-duration=".5s" data-wow-delay=".5s">
+						<li class="wow fadeIn" data-wow-duration=".25s" data-wow-delay=".4s">
 							<h2>What forms of payment do you accept?</h2>
 							<p>We strive to accept as many forms of payment as possible. Cash, PayPal, Venmo, Check, Credit Card, you name it. Even Cryptocurrency!</p>
 						</li>
-						<li class="wow fadeIn" data-wow-duration=".5s" data-wow-delay=".75s">
+						<li class="wow fadeIn" data-wow-duration=".25s" data-wow-delay=".6s">
 							<h2>What kind of jobs can you do?</h2>
 							<p>Please see the <a href="#service-we-provide">Services We Provide</a> section above to browse all of our services.</p>
 						</li>
-						<li class="wow fadeIn" data-wow-duration=".5s" data-wow-delay="1s">
+						<li class="wow fadeIn" data-wow-duration=".25s" data-wow-delay=".8s">
 							<h2>Are you licensed general contractors?</h2>
 							<p>We are not but we ARE licensed HVAC specialists. Most repair jobs do not require a license, but if they do then we can refer you to several trusted associates.</p>
 						</li>
