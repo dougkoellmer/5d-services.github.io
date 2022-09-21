@@ -267,7 +267,7 @@ header .mainmenu-container ul li a {
     color: #515050;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 0 12px;
+    padding: 0 4px;
     position: relative;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -277,7 +277,7 @@ header .mainmenu-container > ul > li.current > a,
 header .mainmenu-container ul li a:hover {
     color: rgba(227, 148, 63, 1.0);
 }
-header .mainmenu-container ul li a:before {
+header .mainmenu-container ul li a:after {
     height: 4px;
     background: rgba(227, 148, 63, 1.0);
 }
@@ -813,7 +813,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
 }
 #who-we-are .single-box p {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 28px;
     color: #8e8d8d;
     margin-top: 7px;
@@ -917,14 +917,14 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     padding: 0;
 }
 .service-tab-content p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
     color: #8e8d8d;
     font-weight: 500;
     margin-bottom: 40px;
 }
 .service-tab-content ul li {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 35px;
     margin-left: 15px;
     color: #999999;
@@ -1918,7 +1918,7 @@ footer .footer-menu .footer-nav-toggler {
     margin-bottom: 15px;
 }
 #why-choose-us .col-lg-3 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
     color: #8e8d8d;
     font-weight: 500;
@@ -2218,7 +2218,7 @@ footer .footer-menu .footer-nav-toggler {
 }
 #contact-content .row > p,
 #contact-content .container > p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
     color: #8E8D8D;
     font-weight: 500;
@@ -2272,7 +2272,7 @@ footer .footer-menu .footer-nav-toggler {
     margin-bottom: 15px;
 }
 #contact-content .contact-info p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
     color: #8E8D8D;
     font-weight: 500;
@@ -2411,7 +2411,7 @@ footer .footer-menu .footer-nav-toggler {
     margin-bottom: 15px;
 }
 #pricing-faq ul li p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
     color: #8e8d8d;
     font-weight: 500;

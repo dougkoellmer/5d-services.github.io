@@ -2533,7 +2533,7 @@
   right: 100%;
   top: 0;
   background: #2098d1;
-  height: 4px;
+  height: 0px;
   -webkit-transition-property: right;
   transition-property: right;
   -webkit-transition-duration: 0.3s;
