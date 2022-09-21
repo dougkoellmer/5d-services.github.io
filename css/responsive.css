@@ -158,12 +158,12 @@
 	.service-tab-content p br {
 		display: none;
 	}
-	#service-we-provide .service-tab-content ul {
+	/* #service-we-provide .service-tab-content ul {
 		margin-top: 15px;
-	}
-	#service-we-provide .service-tab-content ul li {
+	} */
+	/* #service-we-provide .service-tab-content ul li {
 		margin-left: -15px;
-	}
+	} */
 	.service-tab-content .col-lg-4 {
 		right: 70px;
 	}
@@ -1229,10 +1229,10 @@
 	.section-title h1 {
 		line-height: 30px;
 	}
-	#service-we-provide .service-tab-content ul {
+	/* #service-we-provide .service-tab-content ul {
 		margin-left: -30px;
 		margin-top: 30px;
-	}
+	} */
 	.service-tab-content .col-lg-4 img {
 		max-width: none;
 		width: 146px;

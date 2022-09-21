@@ -355,7 +355,7 @@
 	<section id="who-we-are">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-12 large-box col-sm-12 col-xs-12 wow zoomIn hvr-float-shadow" data-wow-duration=".5s">
+				<div style="" class="col-lg-6 col-md-12 large-box col-sm-12 col-xs-12 wow zoomIn hvr-float-shadow" data-wow-duration=".5s">
 					<div style="height:100%;" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<img style="height:100%; object-fit: cover" src="paul_profile_main.jpg" alt="">
 					</div>
@@ -404,31 +404,44 @@
 							<li class="active" data-tab-name="plumbing">Minor Plumbing Repair</li>
 							<li data-tab-name="bath">Computer Repair</li>
 							<li data-tab-name="kitchen">House Staging</li>
-							<li data-tab-name="drain">Heating & Cooling Repair</li>
+							<li data-tab-name="drain">Heating & Cooling</li>
 							<!-- <li data-tab-name="broken">Drywall repair</li> -->
 							<li data-tab-name="broken">Door & Window Repair</li>
 							<li data-tab-name="outside">And Much More!</li>
 						</ul>
 					</div>
 				</div>
+
+				<style>
+					.service-description {
+						margin-bottom: 0px;
+					}
+
+					.service-bullet-point {
+						display:inline-block;
+					}
+
+					.service-bullet-point-ul {
+						margin-bottom:10px;
+					}
+				</style>
 				<div class="col-lg-9 col-md-9 wow slideInRight">
 					<div class="row">
 						<div class="service-tab-content clearfix">
 							<div id="plumbing">
 								<div style="width:100%;" class="col-lg-8 col-md-7 col-sm-8">
-									<p>There are many small repair jobs that don't require an expensive call to your plumber.</p>
+									<p class="service-description">There are many small repair jobs that don't require an expensive call to your plumber.</p>
+									<ul class="service-bullet-point-ul">
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Leaks</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Broken Toilets</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Clogs</li>
+										<!-- <li><i class="fa fa-arrow-circle-o-right"></i></li>
+										<li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>										 -->
+									</ul>
+
 									<div class="row">
-										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
+										<div style="width:60%;" class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<img class="img-border" src="img/plumbing_leak.jpeg" alt="">
-										</div>
-										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<ul>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Leaks</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Broken Toilets</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Clogs</li>
-												<!-- <li><i class="fa fa-arrow-circle-o-right"></i></li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>										 -->
-											</ul>
 										</div>
 									</div>
 								</div>
@@ -438,19 +451,17 @@
 							</div>
 							<div id="bath">
 								<div style="width:100%;" class="col-lg-8 col-md-8 col-sm-8">
-									<p>Yes we can even repair that broken computer or bring a slow, old dinosaur back to life! We specialize in Windows computers.</p>
+									<p class="service-description">Yes we can even repair that broken computer or bring a slow, old dinosaur back to life! We specialize in Windows computers.</p>
+									<ul class="service-bullet-point-ul">
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Cleaning</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Speed-up</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Fixing Startup Errors</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Recovering Lost Files</li>
+										<!-- <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>										 -->
+									</ul>
 									<div class="row">
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<img class="img-border" src="img/computer_repair.jpeg" alt="">
-										</div>
-										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<ul>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Cleaning</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Speed-up</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Fixing Startup Errors</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Recovering Lost Files</li>
-												<!-- <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>										 -->
-											</ul>
 										</div>
 									</div>
 								</div>
@@ -460,19 +471,17 @@
 							</div>
 							<div id="kitchen">
 								<div style="width:100%;" class="col-lg-8 col-md-8 col-sm-8">
-									<p>Whether you're looking to sell or just want a fresh look, with the guidance of a professional Real Estate Agent, we will make you feel like you've moved into an entirely new house!</p>
+									<p class="service-description">Whether you're looking to sell or just want a fresh look, with the guidance of a professional Real Estate Agent, we will make you feel like you've moved into an entirely new house!</p>
+									<ul class="service-bullet-point-ul">
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Furniture Arrangment</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Interior Decorating</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Open House Staging</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>General Cleaning </li>
+										<!-- <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>										 -->
+									</ul>
 									<div class="row">
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<img class="img-border" src="img/furniture_staging.jpeg" alt="">
-										</div>
-										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<ul>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Furniture Arrangment</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Interior Decorating</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Open House Staging</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>General Cleaning </li>
-												<!-- <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>										 -->
-											</ul>
 										</div>
 									</div>
 								</div>
@@ -482,18 +491,16 @@
 							</div>
 							<div id="drain">
 								<div style="width:100%;" class="col-lg-8 col-md-8 col-sm-8">
-									<p>We are licensed in the State Of Florida to handle any and all issues with your Heating and Cooling systems.</p>
+									<p class="service-description">We are licensed in the State Of Florida to handle any and all issues with your Heating and Cooling systems.</p>
+									<ul class="service-bullet-point-ul">
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Replacing Filters</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Adjusting Vents</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Preventative Maintanence</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Unit Replacements</li>						
+									</ul>
 									<div class="row">
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<img class="img-border" src="img/air_conditioning.jpeg" alt="">
-										</div>
-										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<ul>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Replacing Filters</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Adjusting Vents</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Preventative Maintanence</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Unit Replacements</li>						
-											</ul>
 										</div>
 									</div>
 								</div>
@@ -525,19 +532,17 @@
 							</div> -->
 							<div id="broken">
 								<div style="width:100%;" class="col-lg-8 col-md-8 col-sm-8">
-									<p>Contact us for any kind of annoying issues with your doors and windows, or if you are simply looking for a fresh look.</p>
+									<p class="service-description">Contact us for any kind of annoying issues with your doors and windows, or if you are simply looking for a fresh look.</p>
+									<ul class="service-bullet-point-ul">
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Squeaky Hinges</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Bad Alignment</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Sticky Windows</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Window Treatments</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Curtain & Blind Installation</li>										
+									</ul>
 									<div class="row">
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<img class="img-border" src="img/window_repair.jpeg" alt="">
-										</div>
-										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<ul>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Squeaky Hinges</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Bad Alignment</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Sticky Windows</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Window Treatments</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Curtain & Blind Installation</li>										
-											</ul>
 										</div>
 									</div>
 								</div>
@@ -547,20 +552,18 @@
 							</div>
 							<div id="outside">
 								<div style="width:100%;" class="col-lg-8 col-md-8 col-sm-8">
-									<p>We truly strive to be a one-stop-shop, do-it-all service for our clients. If it's on a Honey-Do list, why not call us instead?</p>
+									<p class="service-description">We truly strive to be a one-stop-shop, do-it-all service for our clients. If it's on a Honey-Do list, why not call us instead?</p>
+									<ul class="service-bullet-point-ul">
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Drywall Repair</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Power Washing</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>TV Mounting & Installation</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Picture Hanging</li>
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Fencing Repairs</li>		
+										<li class="service-bullet-point"><i class="fa fa-arrow-circle-o-right"></i>Flooring Installation</li>							
+									</ul>
 									<div class="row">
 										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
 											<img class="img-border" src="img/misc_repair.jpeg" alt="">
-										</div>
-										<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-											<ul>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Drywall Repair</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Power Washing</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>TV Mounting & Installation</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Picture Hanging</li>
-												<li><i class="fa fa-arrow-circle-o-right"></i>Fencing Repairs</li>		
-												<li><i class="fa fa-arrow-circle-o-right"></i>Flooring Installation</li>							
-											</ul>
 										</div>
 									</div>
 								</div>
